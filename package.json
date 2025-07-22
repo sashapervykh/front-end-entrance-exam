@@ -19,5 +19,8 @@
     "husky": "^9.1.7",
     "prettier": "3.6.2",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

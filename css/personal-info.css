@@ -1,0 +1,14 @@
+.personal-info {
+  display: grid;
+  grid-template-columns: 22% 22% 48%;
+  justify-content: space-between;
+}
+
+.hello {
+  margin: 0px auto auto 0px;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+}
