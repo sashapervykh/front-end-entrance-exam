@@ -11,6 +11,7 @@
 html {
   height: 100%;
   font-size: 40px;
+  font-display: swap;
 }
 
 body {
@@ -28,6 +29,10 @@ ul,
 li {
   margin: 0px;
   padding: 0px;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .main {
