@@ -1,0 +1,19 @@
+.interests-section {
+  grid-area: interests;
+}
+
+.interests-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interest {
+  display: flex;
+  background-color: #ffffff;
+  padding: 4px 10px;
+  font-size: 0.5rem;
+  line-height: 150%;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 40px;
+}

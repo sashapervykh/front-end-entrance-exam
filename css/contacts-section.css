@@ -1,0 +1,11 @@
+.contacts-section {
+  grid-area: contacts;
+  background-color: var(--additional-background-color);
+  color: var(--additional-font-color);
+}
+
+.contacts {
+  font-size: 0.5rem;
+  line-height: 150%;
+  margin: 0px;
+}

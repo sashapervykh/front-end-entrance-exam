@@ -1,41 +1,5 @@
 .education-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  grid-template-areas:
-    'education none'
-    'education none';
-}
-
-.contacts-block {
-  background-color: var(--additional-background-color);
-  color: var(--additional-font-color);
-}
-
-.education-block {
   grid-area: education;
-}
-
-.interests-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.interest {
-  display: flex;
-  background-color: #ffffff;
-  padding: 4px 10px;
-  font-size: 0.5rem;
-  line-height: 150%;
-  margin-right: 8px;
-  margin-bottom: 8px;
-  border-radius: 40px;
-}
-
-.contacts {
-  font-size: 0.5rem;
-  line-height: 150%;
-  margin: 0px;
 }
 
 .education-grid {

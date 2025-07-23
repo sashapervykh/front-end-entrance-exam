@@ -45,18 +45,6 @@ li {
   width: inherit;
 }
 
-.education-block {
-  grid-area: education;
-}
-
-.contacts-block {
-  grid-area: contacts;
-}
-
-.interests-block {
-  grid-area: interests;
-}
-
 .block-wrapper {
   background-color: var(--block-background-color);
   border-radius: 12px;
