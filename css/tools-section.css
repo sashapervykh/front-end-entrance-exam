@@ -1,0 +1,43 @@
+.tools-section {
+  grid-area: tools;
+  padding-bottom: 3px;
+}
+
+.tools-list-wrapper {
+  display: grid;
+  grid-gap: 12px;
+}
+
+.inner-block__tools {
+  position: relative;
+  width: 70%;
+  margin: 0px auto;
+  padding: 16px 4px;
+}
+
+.tools-list {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  align-items: self-start;
+}
+
+.tool-logo {
+  display: flex;
+  margin: 0px auto;
+}
+
+.tools-group {
+  display: flex;
+  position: absolute;
+  top: -0.25rem;
+  justify-self: center;
+  font-size: 0.25rem;
+  line-height: 142%;
+  font-weight: 500;
+  color: var(--additional-font-color);
+  background-color: var(--additional-background-color);
+  width: fit-content;
+  padding: 2px 6px;
+  border-radius: 59px;
+}

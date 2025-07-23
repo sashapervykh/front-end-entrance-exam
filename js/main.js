@@ -4,4 +4,5 @@ import '../css/photo-section.css';
 import '../css/hello-section.css';
 import '../css/language-section.css';
 import '../css/experience-section.css';
+import '../css/tools-section.css';
 import '../css/education-section.css';

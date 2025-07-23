@@ -45,14 +45,6 @@ li {
   width: inherit;
 }
 
-.experience-wrapper {
-  grid-area: experience;
-}
-
-.tools-block {
-  grid-area: tools;
-}
-
 .education-block {
   grid-area: education;
 }
