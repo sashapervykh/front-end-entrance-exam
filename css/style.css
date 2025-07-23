@@ -23,6 +23,7 @@ body {
   font-family: Poppins;
   line-height: 150%;
 }
+
 ul,
 li {
   margin: 0px;
@@ -32,8 +33,6 @@ li {
 .main {
   padding: 20px;
   width: inherit;
-  height: 1000px;
-  background-color: black;
 }
 
 .block-wrapper {
