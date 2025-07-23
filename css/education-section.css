@@ -37,3 +37,47 @@
   line-height: 150%;
   margin: 0px;
 }
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.education-period,
+.education-name {
+  font-size: 0.5rem;
+  margin: 0px;
+  line-height: 150%;
+}
+
+.education-period,
+.hashtags {
+  margin-bottom: 8px;
+}
+
+.last-place__education,
+.hashtags,
+.education-place {
+  font-size: 0.4rem;
+  line-height: 150%;
+}
+
+.inner-block__education {
+  height: fit-content;
+}
+
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--tags-font-color);
+}
+
+.hashtags__last {
+  color: var(--additional-font-color);
+}
+
+.hashtag {
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
