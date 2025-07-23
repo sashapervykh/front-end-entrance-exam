@@ -10,7 +10,7 @@
 
 html {
   height: 100%;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 body {
@@ -31,8 +31,42 @@ li {
 }
 
 .main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    'photo hello language language'
+    'experience experience experience tools'
+    'education education interests interests'
+    'education education interests interests'
+    'education education contacts contacts';
+  grid-gap: 20px;
   padding: 20px;
   width: inherit;
+}
+
+.language {
+  grid-area: language;
+}
+
+.experience-wrapper {
+  grid-area: experience;
+}
+
+.tools-block {
+  grid-area: tools;
+}
+
+.education-block {
+  grid-area: education;
+}
+
+.contacts-block {
+  grid-area: contacts;
+}
+
+.interests-block {
+  grid-area: interests;
 }
 
 .block-wrapper {
@@ -57,4 +91,16 @@ li {
 .last-place {
   background-color: var(--chosen-background-color);
   color: #ffffff;
+}
+
+@media (max-width: 1113px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 780px) {
+  html {
+    font-size: 20px;
+  }
 }

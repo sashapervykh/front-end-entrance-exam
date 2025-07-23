@@ -1,0 +1,19 @@
+.lang-wrapper {
+  display: grid;
+  grid-template-columns: 24% 68%;
+  grid-gap: 10px;
+  font-size: 0.5rem;
+  line-height: 104%;
+}
+
+.lang-level {
+  display: flex;
+  background-color: var(--chosen-background-color);
+  border-radius: 3px;
+  height: 11px;
+  margin: auto 0px;
+}
+
+.hindi-level {
+  width: 77%;
+}

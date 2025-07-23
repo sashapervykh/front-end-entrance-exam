@@ -1,0 +1,15 @@
+.photo-section {
+  grid-area: photo;
+  width: 21vw;
+  max-width: 181px;
+  height: 21vw;
+  max-height: 181px;
+}
+
+.photo {
+  display: flex;
+  width: inherit;
+  max-width: inherit;
+  height: inherit;
+  max-height: inherit;
+}

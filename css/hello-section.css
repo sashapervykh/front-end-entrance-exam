@@ -1,0 +1,24 @@
+.hello-wrapper {
+  grid-area: hello;
+  display: flex;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 0.5rem;
+  margin: 0px auto auto 0px;
+}
+
+.name {
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 104%;
+  margin: auto auto 0px 0px;
+}
+
+.position {
+  display: flex;
+  font-size: 0.6rem;
+  color: #5c5c5c;
+  margin: auto auto 0px 0px;
+}
