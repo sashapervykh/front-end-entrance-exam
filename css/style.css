@@ -5,6 +5,7 @@
   --main-font-color: #000000;
   --additional-font-color: #ffffff;
   --tags-font-color: #149063;
+  --inner-block-background-color: #ffffff;
 }
 
 html {
@@ -21,6 +22,11 @@ body {
   overflow-y: auto;
   font-family: Poppins;
   line-height: 150%;
+}
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
 }
 
 .main {
@@ -43,7 +49,13 @@ body {
   margin: 0px 0px 0.8rem 0px;
 }
 
-ul,
-li {
-  list-style: none;
+.inner-block {
+  background-color: var(--inner-block-background-color);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.last-place {
+  background-color: var(--chosen-background-color);
+  color: #ffffff;
 }

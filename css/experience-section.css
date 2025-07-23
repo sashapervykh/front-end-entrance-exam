@@ -1,0 +1,41 @@
+.experience-section {
+  display: grid;
+  grid-template-columns: 73% auto;
+  grid-gap: 20px;
+  font-size: 0.4rem;
+  line-height: 150%;
+}
+
+.job-list {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.job-period {
+  font-weight: 500;
+  margin: 0px 0px 8px 0px;
+}
+
+.job-description {
+  display: grid;
+  grid-template-columns: 33% 62%;
+  justify-content: space-between;
+}
+
+.job-title {
+  margin: 0px;
+  font-size: 0.5rem;
+  font-weight: 500;
+}
+
+.job-obligations {
+  margin: 0px;
+}
+
+.job-place {
+  font-weight: 400;
+}
+
+.job-place__previous {
+  color: #3f3d3d;
+}

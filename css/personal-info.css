@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: minmax(22%, 124px) minmax(22%, 124px) minmax(48%, auto);
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .hello {
