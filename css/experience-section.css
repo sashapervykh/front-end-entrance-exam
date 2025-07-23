@@ -13,8 +13,28 @@
 }
 
 .job-period {
-  font-weight: 500;
+  display: flex;
+  justify-items: space-between;
   margin: 0px 0px 8px 0px;
+}
+
+.job-date {
+  display: flex;
+  font-weight: 500;
+  margin: auto 0px auto 0px;
+}
+
+.recent {
+  display: flex;
+  margin-right: 0px;
+  margin-left: auto;
+  color: #ddf163;
+  background-color: rgba(126, 115, 18, 0.4);
+  padding: 2px;
+  justify-self: center;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 59px;
 }
 
 .job-description {
