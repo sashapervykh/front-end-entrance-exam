@@ -1,14 +1,60 @@
 .personal-info {
   display: grid;
-  grid-template-columns: 22% 22% 48%;
+  grid-template-columns: minmax(22%, 124px) minmax(22%, 124px) minmax(48%, auto);
   justify-content: space-between;
 }
 
 .hello {
+  font-size: 0.5rem;
   margin: 0px auto auto 0px;
 }
 
+.name-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .name {
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 600;
+  line-height: 104%;
+  margin: auto auto 0px 0px;
+}
+
+.position {
+  display: flex;
+  font-size: 0.6rem;
+  color: #5c5c5c;
+  margin: auto auto 0px 0px;
+}
+
+.photo-wrapper {
+  width: 21vw;
+  height: 21vw;
+}
+
+.photo {
+  display: flex;
+  width: inherit;
+  height: inherit;
+}
+
+.lang-wrapper {
+  display: grid;
+  grid-template-columns: 24% 68%;
+  grid-gap: 10px;
+  font-size: 0.5rem;
+  line-height: 104%;
+}
+
+.lang-level {
+  display: flex;
+  background-color: var(--chosen-background-color);
+  border-radius: 3px;
+  height: 11px;
+  margin: auto 0px;
+}
+
+.hindi-level {
+  width: 77%;
 }

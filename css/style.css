@@ -9,7 +9,7 @@
 
 html {
   height: 100%;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
   display: flex;
   overflow-y: auto;
   font-family: Poppins;
+  line-height: 150%;
 }
 
 .main {
@@ -36,10 +37,10 @@ body {
 }
 
 .block-title {
-  font-size: 1rem;
+  font-size: 0.7rem;
   line-height: 150%;
   font-weight: 500;
-  margin: 0px;
+  margin: 0px 0px 0.8rem 0px;
 }
 
 ul,
