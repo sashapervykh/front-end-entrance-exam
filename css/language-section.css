@@ -1,3 +1,7 @@
+.lang-section {
+  grid-area: language;
+}
+
 .lang-wrapper {
   display: grid;
   grid-template-columns: 24% 68%;

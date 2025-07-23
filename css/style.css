@@ -45,10 +45,6 @@ li {
   width: inherit;
 }
 
-.language {
-  grid-area: language;
-}
-
 .experience-wrapper {
   grid-area: experience;
 }
