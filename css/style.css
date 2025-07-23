@@ -80,3 +80,24 @@ li {
     font-size: 20px;
   }
 }
+
+@media (max-width: 585px) {
+  .main {
+    grid-gap: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'photo hello'
+      'language  language'
+      'experience experience'
+      'tools tools'
+      'education education'
+      'interests interests'
+      'contacts contacts';
+  }
+}

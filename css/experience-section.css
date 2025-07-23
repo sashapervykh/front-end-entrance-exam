@@ -27,7 +27,7 @@
   margin-left: auto;
   color: #ddf163;
   background-color: rgba(126, 115, 18, 0.4);
-  padding: 2px;
+  padding: 5px;
   justify-self: center;
   height: fit-content;
   width: fit-content;
@@ -56,4 +56,10 @@
 
 .job-place__previous {
   color: #3f3d3d;
+}
+
+@media (max-width: 780px) {
+  .recent {
+    padding: 2px;
+  }
 }

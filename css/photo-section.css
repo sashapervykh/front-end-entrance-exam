@@ -4,6 +4,8 @@
   max-width: 181px;
   height: 21vw;
   max-height: 181px;
+  min-width: 110px;
+  min-height: 110px;
 }
 
 .photo {
@@ -12,4 +14,6 @@
   max-width: inherit;
   height: inherit;
   max-height: inherit;
+  min-width: inherit;
+  min-height: inherit;
 }
