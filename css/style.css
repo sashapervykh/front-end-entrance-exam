@@ -66,6 +66,7 @@ li {
   border-radius: 20px;
   border: 2px solid #a3a3a3;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .block-wrapper {
