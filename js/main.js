@@ -12,17 +12,12 @@ import '../css/contacts-section.css';
 const editable = document.querySelectorAll('[contenteditable="true"]');
 
 if (localStorage.length !== 0) {
-  console.log(1);
   for (let i = 0; i < localStorage.length; i++) {
     const id = localStorage.key(i);
-    console.log(id);
     const savedData = localStorage.getItem(id);
-    console.log(savedData);
     const elem = document.getElementById(id);
-    console.log(elem);
     if (!elem) continue;
     if (savedData === '') {
-      console.log('hiding');
       elem.classList.add('hidden');
       continue;
     }
