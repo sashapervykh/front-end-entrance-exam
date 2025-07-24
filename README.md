@@ -6,4 +6,4 @@
 - установить зависимости (npm install);
 - запустить предварительный просмотр (npm run dev).
 
-Деплой проекта доступен по [ссылке](https://sashapervykh.github.io/front-end-entrance-exam/)
+Деплой проекта доступен по [ссылке](https://sashapervykh.github.io/t-intensiv-deploy/)
