@@ -9,6 +9,7 @@ import '../css/education-section.css';
 import '../css/interest-section.css';
 import '../css/contacts-section.css';
 import { downloadPDF } from './downloadPDF';
+import { defineRipple } from './defineRipple';
 
 const editable = document.querySelectorAll('[contenteditable="true"]');
 const downloadButton = document.querySelector('.download');
@@ -50,3 +51,16 @@ editable.forEach((elem) => {
 });
 
 downloadButton.addEventListener('click', downloadPDF);
+
+window.addEventListener('click', (event) => {
+  const section = event.target.closest('.block-wrapper');
+  if (section) {
+    console.log(section);
+    defineRipple(event, section);
+    section.classList.add('ripple');
+    const timeout = setTimeout(() => {
+      section.classList.remove('ripple');
+      clearTimeout(timeout);
+    }, 1000);
+  }
+});

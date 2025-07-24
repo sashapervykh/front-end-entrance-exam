@@ -6,6 +6,8 @@
   --additional-font-color: #ffffff;
   --tags-font-color: #149063;
   --inner-block-background-color: #ffffff;
+  --ripple-x: 50%;
+  --ripple-y: 50%;
 }
 
 html {
@@ -70,6 +72,7 @@ li {
   background-color: var(--block-background-color);
   border-radius: 12px;
   padding: 12px;
+  overflow: hidden;
 }
 
 .block-title {
@@ -83,11 +86,37 @@ li {
   background-color: var(--inner-block-background-color);
   border-radius: 10px;
   padding: 8px;
+  position: relative;
 }
 
 .last-place {
   background-color: var(--chosen-background-color);
   color: #ffffff;
+}
+
+.ripple::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: var(--ripple-y);
+  left: var(--ripple-x);
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  animation: ripple 1s;
+}
+
+@keyframes ripple {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(100);
+  }
 }
 
 .focus::after {
