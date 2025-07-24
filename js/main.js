@@ -30,6 +30,16 @@ if (localStorage.length !== 0) {
 }
 
 editable.forEach((elem) => {
+  elem.addEventListener('focus', (event) => {
+    event.target.classList.remove('saving');
+    event.target.classList.add('focus');
+  });
+
+  elem.addEventListener('blur', (event) => {
+    event.target.classList.remove('focus');
+    event.target.classList.add('saving');
+  });
+
   elem.addEventListener('input', (event) => {
     const changedElement = event.target;
     const changedElementID = changedElement.id;

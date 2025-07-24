@@ -23,12 +23,17 @@ body {
   overflow-y: auto;
   font-family: Poppins;
   line-height: 150%;
+  position: relative;
 }
 
 ul,
 li {
   margin: 0px;
   padding: 0px;
+}
+
+* {
+  position: relative;
 }
 
 .hidden {
@@ -72,6 +77,55 @@ li {
 .last-place {
   background-color: var(--chosen-background-color);
   color: #ffffff;
+}
+
+.focus::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#ffffff, #b6b6b6, #95b08f, #496250);
+  opacity: 0;
+  animation: animated-back 1s ease-in-out infinite;
+}
+
+.saving::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: #74d420;
+  opacity: 1;
+  animation: saving 1s ease-in-out;
+}
+
+@keyframes animated-back {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes saving {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+    opacity: 0;
+  }
 }
 
 @media (max-width: 1113px) {

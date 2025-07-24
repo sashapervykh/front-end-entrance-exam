@@ -32,6 +32,7 @@
   height: fit-content;
   width: fit-content;
   border-radius: 59px;
+  overflow: hidden;
 }
 
 .job-description {
