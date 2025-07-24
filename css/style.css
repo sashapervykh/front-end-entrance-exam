@@ -15,11 +15,12 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 98vw;
   max-width: 1440px;
   margin: 0px auto;
   padding: 0;
   display: flex;
+  overflow-x: hidden;
   overflow-y: auto;
   font-family: Poppins;
   line-height: 150%;
@@ -56,6 +57,7 @@ li {
 
 .download {
   display: flex;
+  font-size: 1rem;
   margin: 5px auto;
   font-family: Poppins;
   background-color: var(--block-background-color);
@@ -147,9 +149,6 @@ li {
   html {
     font-size: 20px;
   }
-}
-
-@media (max-width: 585px) {
   .main {
     grid-gap: 10px;
     padding: 10px;
