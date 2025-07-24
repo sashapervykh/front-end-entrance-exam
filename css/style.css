@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   max-width: 1440px;
   margin: 0px auto;
   padding: 0;
@@ -23,7 +23,7 @@ body {
   overflow-y: auto;
   font-family: Poppins;
   line-height: 150%;
-  position: relative;
+  flex-direction: column;
 }
 
 ul,
@@ -52,7 +52,16 @@ li {
     'education education contacts contacts';
   grid-gap: 20px;
   padding: 20px;
-  width: inherit;
+}
+
+.download {
+  display: flex;
+  margin: 5px auto;
+  font-family: Poppins;
+  background-color: var(--block-background-color);
+  border-radius: 20px;
+  border: 2px solid #a3a3a3;
+  cursor: pointer;
 }
 
 .block-wrapper {

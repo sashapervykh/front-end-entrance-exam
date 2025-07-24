@@ -8,8 +8,10 @@ import '../css/tools-section.css';
 import '../css/education-section.css';
 import '../css/interest-section.css';
 import '../css/contacts-section.css';
+import { downloadPDF } from './downloadPDF';
 
 const editable = document.querySelectorAll('[contenteditable="true"]');
+const downloadButton = document.querySelector('.download');
 
 if (localStorage.length !== 0) {
   for (let i = 0; i < localStorage.length; i++) {
@@ -46,3 +48,5 @@ editable.forEach((elem) => {
     localStorage.setItem(changedElementID, changedElement.textContent);
   });
 });
+
+downloadButton.addEventListener('click', downloadPDF);
